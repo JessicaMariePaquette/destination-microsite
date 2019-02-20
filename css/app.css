@@ -1,0 +1,307 @@
+body{
+	background-color:#511d1d;
+	font-family: 'Open Sans', sans-serif;
+	color:#000;
+}
+
+.explore ul{
+	list-style: none;
+	margin:0;
+	padding-top: 1.5rem;
+	color: #C0C0C0;
+}
+
+.intro h1{
+	position:absolute;
+	z-index:2;
+	padding-top:5rem;
+	text-align: center;
+	width:100%;
+}
+
+.orbit{
+	position:relative;
+	z-index:1;
+}
+
+.intro p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25rem;
+	color: #fff;
+	padding-top:2rem;
+	padding-bottom:2rem;
+}
+
+.orbit-caption p{
+	font-family: 'Open Sans' sans-serif;
+	font-size: 1.25rem;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.lead{
+	font-family: 'Open Sans' sans-serif;
+	font-size: 1.25rem;
+	color: #fff;
+	text-align:center;
+	
+}
+
+.lodge .lead{
+padding-top:2rem;
+}
+
+.listen .lead{
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 2rem;
+	font-size:1.25rem;
+}
+
+.listen p{
+	font-family: 'Alegreya', serif;
+}
+
+.explore .lead{
+	padding-bottom:2rem;
+}
+
+
+header{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	position: fixed;
+	width: 100%;
+	z-index:3;
+	background-color:#7f5454
+
+}
+
+header img{
+	width:20%;
+	position: absolute;
+	top: 0;
+	left:0;
+	z-index:2;
+}
+
+@media screen and (min-width:40em){
+	header img{
+	width:10%;
+}
+
+}
+
+/*
+.intro .orbit-caption p{
+	font-size: 1.5rem;
+	padding: 1.5, 1.5, 0;
+	background-color: rgba(10, 10, 10, 0.5);
+}
+
+.listen .orbit-caption p{
+	font-size: 1.5rem;
+	color: #000;
+	padding: 1.5, 1.5, 0;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+*/
+
+/*.intro .orbit-caption h1 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+.intro .orbit-caption p {
+  position: relative;
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size:1.5rem;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height:auto;
+  background-color: rgba(10, 10, 10, 0.5);
+   }
+
+.listen .orbit-caption p {
+  position: relative;
+  text-align: right;
+  color: #000;
+  font-size:1.5rem;
+  left:50%;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  width: 50%;
+  height:50%;
+  background-color: rgba(255, 255, 255, 0.5);
+   } */
+  
+
+.reveal{
+	background-color:#511d1d;
+}
+
+.reveal h1{
+	padding:0;
+}
+
+.reveal p{
+	color: #fff;
+	font-size: 1.25rem;
+	padding-top:1rem;
+}
+
+.button{
+	background-color: #000;
+}
+
+.button:hover{
+	background-color: #fff;
+}
+
+p .button:hover{
+	color:#000;
+}
+
+.button:visited{
+	background-color: #000;
+}
+
+h1{
+	font-family: 'Anton', sans-serif;
+	text-align:center;
+	color: #fff;
+	font-size: 5rem;
+	text-shadow: 2px 1px 4px #000000;
+	padding:2.5rem 0 2.5rem 0;
+
+	}
+
+
+h2{
+	font-family: 'Anton', sans-serif;
+	text-align:center;
+	color: #fff;
+	font-size: 3rem;
+	text-shadow: 2px 1px 4px #000000;
+	padding: 3rem;
+	}
+
+h3{
+	font-size:2rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.discover p{
+	font-size: 1.25rem;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+}
+
+.explore .grid-x:last-child .cell{
+	background-color: #fff;
+	padding:3rem;
+}
+
+.lodge .grid-x:last-child .cell{
+	background-color: #fff;
+	padding:2rem;
+}
+
+.lodge .grid-x:nth-last-child(2) .cell{
+	background-color: #fff;
+	padding:2rem;
+}
+
+.lodge .grid-x:nth-last-child(3) .cell{
+	background-color: #fff;
+	padding:2rem;
+}
+
+.lodge img{
+	padding-top: 1rem;
+}
+
+.explore li{
+	font-size: 1.25rem;
+}
+
+.menu a{
+	font-size: 1rem;
+}
+
+.menu a:link{
+	color:#fff;
+}
+
+.menu a:visited{
+	color:#fff;
+}
+
+.menu a:hover{
+	color:#000;
+}
+
+.lodge .cell{
+	margin-bottom: 3rem;
+}
+
+.lodge h2{
+	margin-bottom: -3rem;
+}
+
+.listen h2{
+	margin-top: -3rem;
+}
+
+@media screen and (min-width:56em){
+.menu a{
+	font-size: 1.5rem;
+}
+}
+
+label{
+	color: #fff;
+}
+
+footer p{
+	color: #fff;
+	padding-top:1rem;
+	padding-left:3rem;
+}
+
+.explore a:link{
+	color: #000;
+}
+
+.explore a:visited{
+	color: #000;
+}
+
+.explore a:hover{
+	color:red;
+}
+
+.explore{
+	background-color:#cc4949;
+	color: #000;
+	padding-bottom:4rem;
+}
+
+.discover{
+	background-color:#cc4949;
+	color: #000;
+	padding-bottom:4rem;
+}
+
+
+footer{
+	background-color:#7f5454;
+	padding: 1rem;
+}
+
